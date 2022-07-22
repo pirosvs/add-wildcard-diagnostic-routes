@@ -10,6 +10,24 @@ diagnostics.get('/', (req, res) => {
 // POST Route for a error logging
 diagnostics.post('/', (req, res) => {
   // TODO: Logic for appending data to the db/diagnostics.json file
+  // fetch('http://localhost:3001/api/feedback', {
+  //     method: 'POST',
+  //     headers: {
+  //       'Content-Type': 'application/json',
+  //     },
+  //     body: JSON.stringify(newFeedback),
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       alert(data.status);
+  //       email = '';
+  //       feedback = '';
+  //     });
+  // })
+  // .catch((error) => {
+  //   console.error('Error:', error);
+  // });
+
 });
 
 module.exports = diagnostics;
